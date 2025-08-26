@@ -9,3 +9,14 @@ print(np_weight_lb[50])
 
 # Print out sub-array of np_height_in: index 100 up to and including index 110
 print(np_height_in[100:111])
+
+/* Two Dimensional NumPy Array */
+
+Subsetting in 2D-Array is done as follows:  
+np2d = ([
+  [100, 200, 3000, 400, 500],  // 0
+  [600, 700, 800, 900, 990]    // 1
+])  
+
+arr2dArray[rows : columns ] ==> // remember
+np2d[: , 1:3] -->  return all rows and 1 and 2 column values from all rows
