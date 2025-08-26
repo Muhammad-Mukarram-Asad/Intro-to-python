@@ -20,3 +20,6 @@ np2d = ([
 
 arr2dArray[rows : columns ] ==> // remember
 np2d[: , 1:3] -->  return all rows and 1 and 2 column values from all rows
+
+// In order to find 50th element from 2D numpy array we have to do following thing:  
+print(numpy_array[: , 49])   ==> all rows and 49th index element will return 50th element
