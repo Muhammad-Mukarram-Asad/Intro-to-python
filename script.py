@@ -26,4 +26,9 @@ print(numpy_array[: , 49])   ==> all rows and 49th index element will return 50t
 
 // To convert a normal list into numPy array in python:  
 a = [1,2,3,4]
-numpy_array = np.array(a);
+numpy_array = np.array(a);  
+
+import pyplot.matplotlib as plt
+plt.clf() ==> clears the most recent plot you created
+plt.show() ==>  will show the plot you created  
+plt.text([20,40], "Histogram" ) ==>  will replace the 20, 40 to "Histogram text"
