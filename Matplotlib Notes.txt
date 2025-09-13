@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-Q.1) You're a professor in Data Analytics with Python, and you want to visually assess if longer answers on exam questions lead to higher grades. Which plot do you use?
+Q.1) You're a professor in Data Analytics with Python, and you want to visually assess if longer answ ers on exam questions lead to higher grades. Which plot do you use?
 Ans.1) Scatter plot b/c *time* includes in this example.
 
 // For customzation of plots:  
