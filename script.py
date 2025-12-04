@@ -1,5 +1,6 @@
 /* Subsetting Numpy Arrays */
 import numpy as np
+print (hello);
 
 np_weight_lb = np.array(weight_lb)
 np_height_in = np.array(height_in)
