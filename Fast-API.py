@@ -90,4 +90,6 @@ def say_hello(name: Annotated[str, "this is just metadata"]) -> str:
 # Python itself doesn't do anything with this Annotated. And for editors and other tools, the type is still str.
 # But you can use this space in Annotated to provide FastAPI with additional metadata about how you want your application to behave.
 # The important thing to remember is that the first type parameter you pass to Annotated is the actual type. The rest, is just metadata for other tools.
-# For now, you just need to know that Annotated exists, and that it's standard Python. 
+# For now, you just need to know that Annotated exists, and that it's standard Python.  
+
+# decirators in python;
